@@ -7,9 +7,7 @@ Gere nomes poéticos e aleatórios
 npm install alphonsus
 ```
 
-## Usage
-
-Haikunator is pretty simple.
+## Uso
 
 ```javascript
 var alphonsus = require("alphonsus");
