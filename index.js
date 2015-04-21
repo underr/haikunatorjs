@@ -29,7 +29,7 @@ var adjsM = [
 var subsM = [
   "frio", "vento", "oceano", "amanhecer", "brilho", "lago", "pinho", "pasto", 
   "sol", "pássaro", "riacho", "arbusto", "orvalho", "campo", "fogo", "silêncio",
-  "som", "céu", "trovão", "sol", "sonho", "árvore", "papel", "sapo", "átomo",
+  "som", "céu", "trovão", "sol", "sonho", "papel", "sapo", "átomo",
   "bloco", "barco", "prazo", "crédito", "disco", "coração", "limite", "pão",
   "bônus", "laboratório", "modo", "dente", "rei", "leão", "tigre", "pinguim",
   "kiwi", "bolo", "rato", "arroz", "chapéu"
@@ -43,7 +43,7 @@ var subsF= [
   "madeira", "cereja", "névoa", "geada", "voz", "fumaça", "estrela",
   "banda", "barra", "base", "arte", "moda", "verdade", "matemática",
   "unidade", "célula", "cena", "receita", "união", "torrada", "lama",
-  "poesia", "sala", "rainha", "coca", "salada"
+  "poesia", "sala", "rainha", "coca", "salada", "árvore"
 ];
 
 function extend(obj) {
