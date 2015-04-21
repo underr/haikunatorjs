@@ -59,7 +59,7 @@ function extend(obj) {
 }
 
 var haikunator = function (opt) {
-  if ((Math.floor((Math.random() * 100) + 1)) % 2 == 0) {
+  if ((Math.floor((Math.random() * 100) + 1)) > 50) {
     adjs = adjsF;
     subs = subsF;
   } else {
