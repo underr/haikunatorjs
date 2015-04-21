@@ -1,17 +1,10 @@
-# HaikunatorJS
+# alphonsus
+Gere nomes poéticos e aleatórios
 
-[![Build Status](https://img.shields.io/travis/Atrox/haikunatorjs.svg?style=flat-square)](https://travis-ci.org/Atrox/haikunatorjs)
-[![Latest Version](https://img.shields.io/npm/v/haikunator.svg?style=flat-square)](https://www.npmjs.com/package/haikunator)
-[![Dependency Status](https://img.shields.io/david/atrox/haikunatorjs.svg?style=flat-square)](https://david-dm.org/atrox/haikunatorjs)
-[![devDependency Status](https://img.shields.io/david/dev/atrox/haikunatorjs.svg?style=flat-square)](https://david-dm.org/atrox/haikunatorjs#info=devDependencies)
-[![Coverage Status](https://img.shields.io/coveralls/Atrox/haikunatorjs.svg?style=flat-square)](https://coveralls.io/r/Atrox/haikunatorjs)
-
-Generate Heroku-like random names to use in your node applications.
-
-## Installation
+## Instalação
 
 ```
-npm install haikunator
+npm install alphonsus
 ```
 
 ## Usage
@@ -19,61 +12,42 @@ npm install haikunator
 Haikunator is pretty simple.
 
 ```javascript
-var haikunate = require("haikunator");
+var alphonsus = require("alphonsus");
 
-// default usage
-haikunate() // => "wispy-dust-1337"
+// uso normal
+alphonsus() // => "clareira-tímida-5150"
 
-// custom length (default=4)
-haikunate({tokenLength: 6}) // => "patient-king-887265"
+// tamanho customizado (padrão=4)
+alphonsus({tokenLength: 6}) // => "disco-divino-457821"
 
-// use hex instead of numbers
-haikunate({tokenHex: true}) // => "purple-breeze-98e1"
+// use hex ao invés de números
+alphonsus({tokenHex: true}) // => "barco-jovem-fccf"
 
 // use custom chars instead of numbers/hex
-haikunate({tokenChars: "HAIKUNATE"}) // => "summer-atom-IHEA"
+alphonsus({tokenChars: "castidade"}) // => "campo-rude-aesa"
 
-// don't include a token
-haikunate({tokenLength: 0}) // => "cold-wildflower"
+// não incluir um token
+alphonsus({tokenLength: 0}) // => "arte-desconhecida"
 
-// use a different delimiter
-haikunate({delimiter: "."}) // => "restless.sea.7976"
+// use um delimitador diferente
+alphonsus({delimiter: "*"}) // => "poeira*pura*4521"
 
-// no token, space delimiter
-haikunate({tokenLength: 0, delimiter: " "}) // => "delicate haze"
+// sem token, delimitado por espaços
+alphonsus({tokenLength: 0, delimiter: " "}) // => "brilho quieto"
 
-// no token, empty delimiter
-haikunate({tokenLength: 0, delimiter: ""}) // => "billowingleaf"
+// sem token, delimitador vazio
+alphonsus({tokenLength: 0, delimiter: ""}) // => "montanhaelegante"
 ```
 
-## Options
+## Opções
 
-The following options are available:
+As seguintes opções estão disponíveis:
 
 ```javascript
-haikunate({
+alphonsus({
   delimiter: "-",
   tokenLength: 4,
   tokenHex: false,
   tokenChars: "0123456789"
 });
 ```
-*If ```tokenHex``` is true, it overrides any tokens specified in ```tokenChars```*
-
-## Contributing
-
-Everyone is encouraged to help improve this project. Here are a few ways you can help:
-
-- [Report bugs](https://github.com/atrox/haikunatorjs/issues)
-- Fix bugs and [submit pull requests](https://github.com/atrox/haikunatorjs/pulls)
-- Write, clarify, or fix documentation
-- Suggest or add new features
-
-## Other Languages
-
-Haikunator is also available in other languages. Check them out:
-
-- PHP: https://github.com/Atrox/haikunatorphp
-- Python: https://github.com/Atrox/haikunatorpy
-- Ruby: https://github.com/usmanbashir/haikunator
-- Go: https://github.com/yelinaung/go-haikunator
