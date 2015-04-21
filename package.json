@@ -1,7 +1,7 @@
 {
-  "name": "haikunator",
+  "name": "alphonsus",
   "version": "0.2.4",
-  "description": "Generate Heroku-like random names to use in your node applications.",
+  "description": " Gere nomes poéticos e aleatórios.",
   "main": "index.js",
   "scripts": {
     "test": "istanbul cover _mocha",
@@ -9,23 +9,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Atrox/haikunatorjs"
+    "url": "https://github.com/underr/alphonsus"
   },
   "keywords": [
-    "haikunator",
+    "poesia",
     "heroku",
     "random",
-    "names",
+    "nomes",
     "heroku-like",
     "name",
     "generator"
   ],
-  "author": "Atrox",
+  "author": "underr",
   "license": "GPLv3",
-  "bugs": {
-    "url": "https://github.com/Atrox/haikunatorjs/issues"
-  },
-  "homepage": "https://github.com/Atrox/haikunatorjs",
   "devDependencies": {
     "chai": "^2.1.2",
     "coveralls": "^2.11.2",
