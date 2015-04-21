@@ -21,7 +21,7 @@ alphonsus({tokenLength: 6}) // => "disco-divino-457821"
 // use hex ao invés de números
 alphonsus({tokenHex: true}) // => "barco-jovem-fccf"
 
-// use custom chars instead of numbers/hex
+// use caracteres customizados ao invés de números/hex
 alphonsus({tokenChars: "castidade"}) // => "campo-rude-aesa"
 
 // não incluir um token
@@ -49,3 +49,4 @@ alphonsus({
   tokenChars: "0123456789"
 });
 ```
+
