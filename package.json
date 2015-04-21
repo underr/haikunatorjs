@@ -1,6 +1,6 @@
 {
   "name": "alphonsus",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "description": " Gere nomes poéticos e aleatórios.",
   "main": "index.js",
   "scripts": {
